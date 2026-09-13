@@ -4,7 +4,6 @@
   <img alt="NOVUM" src="banner-light.png">
 </picture>
 
-[![Build](https://img.shields.io/github/actions/workflow/status/FakePancak3/novum/build.yml?label=build)](https://github.com/FakePancak3/novum/actions)
 [![License](https://img.shields.io/github/license/FakePancak3/novum)](https://github.com/FakePancak3/novum/blob/main/LICENSE)
 [![Latest Release](https://img.shields.io/github/v/release/FakePancak3/novum)](https://github.com/FakePancak3/novum/releases)
 [![Downloads](https://img.shields.io/github/downloads/FakePancak3/novum/total)](https://github.com/FakePancak3/novum/releases)
