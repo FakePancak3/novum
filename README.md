@@ -3,6 +3,7 @@
   <source media="(prefers-color-scheme: light)" srcset="banner-light.png">
   <img alt="NOVUM" src="banner-light.png">
 </picture>
+
 ![status](https://img.shields.io/badge/platform-Windows-blue)  ![status](https://img.shields.io/badge/Version-1.0.0-red)  ![status](https://img.shields.io/badge/Build-Passing-green)
 
 A minimal, dark-themed auto-clicker with naturally varying click speed
