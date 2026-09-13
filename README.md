@@ -20,21 +20,21 @@ Grab the latest `NOVUM.exe` from the [Releases](../../releases) page.
 No installation needed, just run it.
 
 **SHA-256 checksum for the latest release:** see the checksum listed
-on that release's page. Verify it in PowerShell with:
+on that releases page. Verify it in PowerShell with:
 
 ```powershell
 Get-FileHash NOVUM.exe -Algorithm SHA256
 ```
 
 If the hash doesn't match what's listed on the release page, don't run
-the file — re-download from the official Releases link above.
+the file re-download from the official Releases link above.
 
 ## Usage
 
 1. Run `NOVUM.exe`.
 2. Set **Min CPS** and **Max CPS** (defaults: 8 / 12).
 3. Click **START**, then move your mouse to where you want it to
-   click. There's a short delay after pressing Start specifically so
+   click. Theres a short delay after pressing Start specifically so
    you have time to move the cursor off the button.
 4. Press **F6** anytime to toggle clicking on/off or click **STOP**.
 5. To change the hotkey: click the current key next to "Toggle key,"
@@ -45,15 +45,15 @@ the file — re-download from the official Releases link above.
 - **Antivirus warnings:** Windows Defender or other antivirus software
   may flag this exe as suspicious. This is a very common false
   positive for small, unsigned Python tools packaged with PyInstaller
-  — it's not signed by a paid certificate, and the packaging pattern
+  its not signed by a paid certificate, and the packaging pattern
   looks superficially similar to malware droppers. The source code is
   fully available in this repo if you'd like to check it yourself or
   build it from source instead of using the prebuilt exe.
 - **Terms of service:** Many games and applications explicitly
   prohibit automated input like auto-clicking, and using one can get
-  you penalized or banned. That's between you and whatever
+  you penalized or banned. Thats between you and whatever
   game/app/service you use this with use your own judgment and
-  check the relevant rules first.
+  check the rules first.
 - **No warranty:** this is a free hobby project provided as-is, with
   no guarantee of fitness for any particular purpose.
 
