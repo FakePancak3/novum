@@ -75,7 +75,7 @@ the file re-download from the official Releases link above.
 If you'd rather build it yourself than trust a prebuilt binary:
 
 ```bash
-git clone https://github.com/FakePancak3/novum/tree/main
+git clone https://github.com/FakePancak3/novum.git
 cd novum
 pip install -r requirements.txt
 python main.py
