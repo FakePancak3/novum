@@ -11,6 +11,13 @@
 A minimal, dark-themed auto-clicker with naturally varying click speed
 and a rebindable global hotkey.
 
+> [!IMPORTANT]
+> Novum is an open-source hobby project.
+> The Windows executable is currently not code signed so Windows may show a SmartScreen warning because the application does not have an established publisher reputation.
+> This does not mean the warning should be ignored blindly.
+> If you are uncomfortable running the prebuilt executable, you can inspect the source code and build NOVUM yourself using the instructions below.
+> The source code used to build Novum is available in this repository.
+
 ## Features
 
 - Clicking speed drifts naturally between your set min/max CPS instead
