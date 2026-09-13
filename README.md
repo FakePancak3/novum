@@ -69,7 +69,7 @@ If you'd rather build it yourself than trust a prebuilt binary:
 
 ```bash
 git clone https://github.com/FakePancak3/novum/tree/main
-cd novum-autoclicker
+cd novum
 pip install -r requirements.txt
 python main.py
 ```
