@@ -15,7 +15,7 @@ and a rebindable global hotkey.
 > Novum is an **open-source hobby project.**
 > **The Windows executable is currently not code signed so Windows may show a SmartScreen warning** because the application does not have an established publisher reputation.
 > **This does not mean the warning should be ignored blindly.**
-> If you are uncomfortable running the prebuilt executable, you can inspect the source code and build NOVUM yourself using the instructions below.
+> If you are uncomfortable running the prebuilt executable, you can inspect the source code and build Novum yourself using the instructions below.
 > The source code used to build Novum is available in this repository.
 
 ## Features
@@ -55,13 +55,7 @@ the file re-download from the official Releases link above.
 
 ## ⚠️ A couple of things to know before using this
 
-- **Antivirus warnings:** Windows Defender or other antivirus software
-  may flag this exe as suspicious. This is a very common false
-  positive for small, unsigned Python tools packaged with PyInstaller
-  its not signed by a paid certificate, and the packaging pattern
-  looks superficially similar to malware droppers. The source code is
-  fully available in this repo if you'd like to check it yourself or
-  build it from source instead of using the prebuilt exe.
+- **Antivirus warnings:** Novum is currently unsigned, so Windows may display a Microsoft Defender SmartScreen warning. The source code     is publicly available, and each release includes a SHA-256 checksum so you can verify the downloaded file.
 - **Terms of service:** Many games and applications explicitly
   prohibit automated input like auto-clicking, and using one can get
   you penalized or banned. Thats between you and whatever
