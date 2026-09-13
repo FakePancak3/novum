@@ -39,12 +39,13 @@ def normalize_base_key(key):
 
 class KeybindManager:
 
-    def __init__(self, on_trigger, on_capture_complete=None):
+    def __init__(self, on_trigger, on_capture_complete=None,
+                 initial_hotkey_str=None, initial_display_str=None):
         self._on_trigger = on_trigger
         self._on_capture_complete = on_capture_complete
 
-        self._hotkey_str = "<f6>"
-        self._display_str = "F6"
+        self._hotkey_str = initial_hotkey_str or "<f6>"
+        self._display_str = initial_display_str or "F6"
         self._hotkey_listener = None
         self._capture_listener = None
         self._held_modifiers = set()
@@ -54,6 +55,10 @@ class KeybindManager:
     @property
     def display_string(self) -> str:
         return self._display_str
+
+    @property
+    def hotkey_string(self) -> str:
+        return self._hotkey_str
 
     def begin_capture(self):
         self._stop_capture_listener()

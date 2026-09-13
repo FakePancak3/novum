@@ -22,14 +22,9 @@ STATUS_STOPPED = "#5b5b63"
 LINE_DEFAULT = "#2c2c31"
 LINE_FOCUS = ACCENT
 
-FONT_TITLE = ("Segoe UI Semibold", 20)
-FONT_TITLE_FALLBACK = ("Segoe UI", 20, "bold")
+TRANSPARENT_KEY = "#010203"
+
 FONT_LABEL = ("Segoe UI", 9)
-FONT_INPUT = ("Segoe UI", 13)
-FONT_BUTTON = ("Segoe UI Semibold", 12)
-FONT_BUTTON_FALLBACK = ("Segoe UI", 12, "bold")
-FONT_STATUS = ("Segoe UI Semibold", 10)
-FONT_STATUS_FALLBACK = ("Segoe UI", 10, "bold")
 FONT_MONO_SMALL = ("Consolas", 9)
 
 def rounded_rect_points(x1, y1, x2, y2, r):
@@ -53,10 +48,33 @@ def draw_rounded_rect(canvas, x1, y1, x2, y2, r, **kwargs):
     points = rounded_rect_points(x1, y1, x2, y2, r)
     return canvas.create_polygon(points, smooth=True, splinesteps=24, **kwargs)
 
-def pick_font(root, preferred, fallback):
+def pick_font(root, candidates):
     import tkinter.font as tkfont
     try:
         families = set(tkfont.families(root))
     except Exception:
-        return fallback
-    return preferred if preferred[0] in families else fallback
+        return candidates[-1]
+    for candidate in candidates:
+        if candidate[0] in families:
+            return candidate
+    return candidates[-1]
+
+
+FONT_TITLE_CANDIDATES = [
+    ("Bahnschrift SemiBold", 22),
+    ("Segoe UI Semibold", 20),
+    ("Segoe UI", 20, "bold"),
+]
+FONT_BUTTON_CANDIDATES = [
+    ("Bahnschrift SemiBold", 13),
+    ("Segoe UI Semibold", 12),
+    ("Segoe UI", 12, "bold"),
+]
+FONT_INPUT_CANDIDATES = [
+    ("Bahnschrift SemiLight", 16),
+    ("Segoe UI", 14),
+]
+FONT_LABEL_CANDIDATES = [
+    ("Bahnschrift", 9),
+    ("Segoe UI", 9),
+]
