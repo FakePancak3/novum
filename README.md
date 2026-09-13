@@ -9,7 +9,7 @@ and a rebindable global hotkey.
 
 - Clicking speed drifts naturally between your set min/max CPS instead
   of firing at one robotic fixed rate.
-- Global hotkey toggle (default **F6**) — works even when another
+- Global hotkey toggle (default **F6**) works even when another
   window or game is focused.
 - Click-to-rebind hotkey, including modifier combos (e.g. `Ctrl+H`).
 - Small, clean, dark UI. No installer, no bloat.
@@ -17,7 +17,7 @@ and a rebindable global hotkey.
 ## Download
 
 Grab the latest `NOVUM.exe` from the [Releases](../../releases) page.
-No installation needed — just run it.
+No installation needed, just run it.
 
 **SHA-256 checksum for the latest release:** see the checksum listed
 on that release's page. Verify it in PowerShell with:
@@ -36,7 +36,7 @@ the file — re-download from the official Releases link above.
 3. Click **START**, then move your mouse to where you want it to
    click. There's a short delay after pressing Start specifically so
    you have time to move the cursor off the button.
-4. Press **F6** anytime to toggle clicking on/off — or click **STOP**.
+4. Press **F6** anytime to toggle clicking on/off or click **STOP**.
 5. To change the hotkey: click the current key next to "Toggle key,"
    then press any key (or key combo) you want to use instead.
 
@@ -52,7 +52,7 @@ the file — re-download from the official Releases link above.
 - **Terms of service:** Many games and applications explicitly
   prohibit automated input like auto-clicking, and using one can get
   you penalized or banned. That's between you and whatever
-  game/app/service you use this with — use your own judgment and
+  game/app/service you use this with use your own judgment and
   check the relevant rules first.
 - **No warranty:** this is a free hobby project provided as-is, with
   no guarantee of fitness for any particular purpose.
@@ -62,7 +62,7 @@ the file — re-download from the official Releases link above.
 If you'd rather build it yourself than trust a prebuilt binary:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/FakePancak3/novum/tree/main
 cd novum-autoclicker
 pip install -r requirements.txt
 python main.py
@@ -78,6 +78,4 @@ python -m PyInstaller --onefile --windowed --name NOVUM --icon icon.ico --add-da
 Your exe will be in `dist/NOVUM.exe`.
 
 ## License
-
-Add a license of your choice here (e.g. MIT) so people know what
-they're allowed to do with the source code.
+MIT
