@@ -21,7 +21,7 @@ and a rebindable global hotkey.
 ## Features
 
 - Clicking speed drifts naturally between your set min/max CPS instead
-  of firing at one robotic fixed rate.
+  of firing at one fixed rate.
 - Global hotkey toggle (default **F6**) works even when another
   window or game is focused.
 - Click-to-rebind hotkey, including modifier combos (e.g. `Ctrl+H`).
