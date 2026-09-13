@@ -1,5 +1,10 @@
 # NOVUM
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="banner-light.png">
+  <img alt="NOVUM" src="banner-light.png">
+</picture>
 A minimal, dark-themed auto-clicker with naturally varying click speed
 and a rebindable global hotkey.
 
