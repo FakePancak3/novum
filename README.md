@@ -22,7 +22,7 @@ and a rebindable global hotkey.
 
 ## Download
 
-Grab the latest `NOVUM.exe` from the [Releases](../../releases) page.
+Get the latest `NOVUM.exe` from the [Releases](../../releases) page.
 No installation needed, just run it.
 
 **SHA-256 checksum for the latest release:** see the checksum listed
