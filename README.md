@@ -8,13 +8,6 @@
 [![Latest Release](https://img.shields.io/github/v/release/FakePancak3/novum)](https://github.com/FakePancak3/novum/releases)
 [![Downloads](https://img.shields.io/github/downloads/FakePancak3/novum/total)](https://github.com/FakePancak3/novum/releases)
 
-███╗   ██╗ ██████╗ ██╗   ██╗██╗   ██╗███╗   ███╗
-████╗  ██║██╔═══██╗██║   ██║██║   ██║████╗ ████║
-██╔██╗ ██║██║   ██║██║   ██║██║   ██║██╔████╔██║
-██║╚██╗██║██║   ██║╚██╗ ██╔╝██║   ██║██║╚██╔╝██║
-██║ ╚████║╚██████╔╝ ╚████╔╝ ╚██████╔╝██║ ╚═╝ ██║
-╚═╝  ╚═══╝ ╚═════╝   ╚═══╝   ╚═════╝ ╚═╝     ╚═╝
-
 A minimal, dark-themed auto-clicker with naturally varying click speed
 and a rebindable global hotkey.
 
