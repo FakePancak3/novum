@@ -63,7 +63,6 @@ the file re-download from the official Releases link above.
   check the rules first.
 - **No warranty:** this is a free hobby project provided as-is, with
   no guarantee of fitness for any particular purpose.
-- **AI Usage:** Ai was used for making SOME parts of this project, i will not deny that.
 
 ## Building from source
 
